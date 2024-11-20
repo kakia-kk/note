@@ -124,3 +124,7 @@ git config --global --add safe.directory E:/note #将当前目录标记为安全
 ![image-20241120115234947](C:\Users\kaka\AppData\Roaming\Typora\typora-user-images\image-20241120115234947.png)
 
 可以看到输入之后出现了（master）
+
+修改文件之后重新提交：
+
+![image-20241120122329112](C:\Users\kaka\AppData\Roaming\Typora\typora-user-images\image-20241120122329112.png)
