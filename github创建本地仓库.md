@@ -45,9 +45,13 @@ git bash创建ssh key（**引号内是github注册使用的邮箱!!**）
 $ ssh-keygen -t rsa -C "3344850985@qq.com"
 ```
 
+![image-20241120121653131](C:\Users\kaka\AppData\Roaming\Typora\typora-user-images\image-20241120121653131.png)
+
 ### 在用户的主目录下找到ssh key
 
-![image-20241120112638532](C:\Users\kaka\AppData\Roaming\Typora\typora-user-images\image-20241120112638532.png)
+用的是public
+
+![image-20241120121926386](C:\Users\kaka\AppData\Roaming\Typora\typora-user-images\image-20241120121926386.png)
 
 ### 在github上添加ssh key
 
@@ -106,6 +110,8 @@ git push -u origin master #由于新建的远程仓库是空的，所以要加�
 ```bash
 git push origin master #之后仓库不是空的，就不用加上-u
 ```
+
+![image-20241120122059053](C:\Users\kaka\AppData\Roaming\Typora\typora-user-images\image-20241120122059053.png)
 
 因为我用的是外部硬盘，所以直接操作会报错如下：
 
