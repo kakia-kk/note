@@ -4,6 +4,8 @@
 
 ### 设置username和email
 
+你可以使用此命令设置用户的用户名、电子邮件和分支，以便在处理项目时识别谁进行了提交。
+
 ```shell
 $ git config --global user.name  "name"//自定义用户名
 $ git config --global user.email "youxiang@qq.com"//用户邮箱
@@ -63,6 +65,8 @@ $ ssh-keygen -t rsa -C "3344850985@qq.com"
 
 进入文件夹，右键-Git Bash
 
+你可以使用 `git init` 命令在项目中启动 Git。当你正在处理项目并希望将 Git 初始化到项目以跟踪项目中所做的更改时，将使用此 Git 命令。
+
 ```bash
 git init #初始化成一个Git可管理的仓库
 ```
@@ -83,9 +87,19 @@ git status #查看当前的状态
 git add . #把项目/源代码添加到仓库
 ```
 
+此命令将你的文件添加到暂存区。暂存区域是添加我们对其进行更改的文件以及它们等待下一次提交的区域。
+
 ```bash
 git commit -m "first commit" #把项目提交到仓库，可以写上注释
 ```
+
+这将提交你使用 `git add` 命令添加的任何文件以及暂存区域中的每个文件。
+
+```bash
+git push (remote storage name)
+```
+
+你可以使用此命令将文件从本地仓库上传/推送到另一个仓库，例如 GitHub 等远程仓库。
 
 ### Github上建立仓库
 
